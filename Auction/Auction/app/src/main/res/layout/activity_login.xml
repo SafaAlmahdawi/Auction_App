@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4"
+    android:layoutDirection="ltr"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:src="@drawable/logo4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentLeft="true"/>
+    <ImageView
+        android:id="@+id/imgArrow"
+        android:src="@drawable/arrow2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:layout_marginHorizontal="20dp"
+    android:padding="10dp"
+    android:alpha="10"
+    android:background="@drawable/background">
+
+    <TextView android:id="@+id/txtLoginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="#086791"
+        android:textStyle="bold"
+        android:textSize= "15sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/summer_calling" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:orientation="horizontal"
+        android:background="#4AE91E63"/>
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_text"
+        android:hint="User Name or Email"
+        android:textColor="#03A9F4"
+        android:drawableLeft="@drawable/usern"
+        android:padding="8dp"/>
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_text"
+        android:hint="Password"
+        android:textColor="#03A9F4"
+        android:drawableLeft="@drawable/pass"
+        android:padding="8dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/butLogin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_button"
+        android:padding="8dp"
+        android:text="Login"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:fontFamily="@font/summer_calling"/>
+
+    <TextView android:id="@+id/txtForget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forget Password?"
+        android:textColor="#086791"
+        android:textStyle="bold"
+        android:textSize= "15sp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:orientation="horizontal"
+        android:background="#4AE91E63"/>
+
+    <TextView android:id="@+id/txtAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Account"
+        android:textColor="#086791"
+        android:textStyle="bold"
+        android:textSize= "15sp"
+        android:layout_marginTop="20dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/butNewAccount"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_button"
+        android:padding="8dp"
+        android:text="Signup"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:fontFamily="@font/summer_calling"
+        android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

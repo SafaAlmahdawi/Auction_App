@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back4"
+    android:layoutDirection="ltr"
+    tools:context=".seller.AddProductImageActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="20dp"
+            android:padding="10dp"
+            android:alpha="10"
+            android:layout_marginTop="80dp"
+            android:scrollbars="vertical"
+            android:background="@drawable/background">
+
+
+            <TextView android:id="@+id/txtLoginTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Product Images"
+                android:textColor="#086791"
+                android:textStyle="bold"
+                android:textSize= "30sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/sinethar" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:orientation="horizontal"
+                android:background="#4AE91E63"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/img1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/prodimage"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/butChoose1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/round_button2"
+                    android:padding="8dp"
+                    android:text="Choose 1"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#086791"
+                    android:textAlignment="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/butUpload1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/round_button"
+                    android:padding="8dp"
+                    android:text="Upload 1"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textAlignment="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/img2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/prodimage"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/butChoose2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/round_button2"
+                    android:padding="8dp"
+                    android:text="Choose 2"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#086791"
+                    android:textAlignment="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:enabled="false"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/butUpload2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/round_button"
+                    android:padding="8dp"
+                    android:text="Upload 2"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textAlignment="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:enabled="false"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/prodimage"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/butChoose3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/round_button2"
+                    android:padding="8dp"
+                    android:text="Choose 3"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#086791"
+                    android:textAlignment="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:enabled="false"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/butUpload3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/round_button"
+                    android:padding="8dp"
+                    android:text="Upload 3"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textAlignment="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:enabled="false"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/img4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/prodimage"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/butChoose4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/round_button2"
+                    android:padding="8dp"
+                    android:text="Choose 4"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#086791"
+                    android:textAlignment="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:enabled="false"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/butUpload4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/round_button"
+                    android:padding="8dp"
+                    android:text="Upload 4"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textAlignment="center"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:enabled="false"/>
+
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/butSave"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/round_button"
+                android:padding="8dp"
+                android:text="Finish"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:fontFamily="@font/summer_calling"
+                android:enabled="false" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.auction">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo4"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo4"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Auction">
+        <activity android:name=".captain.ViewOrderDetailsActivity"></activity>
+        <activity android:name=".admin.AssignOrders2Activity" />
+        <activity android:name=".admin.AssignOrdersActivity" />
+        <activity android:name=".admin.ManageCommentsActivity" />
+        <activity android:name=".buyer.CardInformation2Activity" />
+        <activity android:name=".buyer.CompleteWinActivity" />
+        <activity android:name=".buyer.WinBiddingActivity" />
+        <activity android:name=".buyer.CardInformationActivity" />
+        <activity android:name=".buyer.CompleteActivity" />
+        <activity android:name=".buyer.MyCartActivity" />
+        <activity android:name=".buyer.FavoriteActivity" />
+        <activity android:name=".buyer.ParticipateBiddingActivity" />
+        <activity android:name=".buyer.LiveBiddingActivity" />
+        <activity android:name=".buyer.ViewCommentsActivity" />
+        <activity android:name=".buyer.RateProductActivity" />
+        <activity android:name=".buyer.ProductOperationsActivity" />
+        <activity android:name=".buyer.SearchProductActivity" />
+        <activity android:name=".buyer.ProductDetailsBuyerActivity" />
+        <activity android:name=".captain.EditProfileCaptainActivity" />
+        <activity android:name=".captain.MyOrdersActivity" />
+        <activity android:name=".expert.ViewProductExpertActivity" />
+        <activity android:name=".expert.EstimateProductsActivity" />
+        <activity android:name=".expert.EditProfileExpertActivity" />
+        <activity android:name=".buyer.ViewProductsActivity" />
+        <activity android:name=".seller.BiddingPeriodActivity" />
+        <activity android:name=".admin.AcceptRejectBidding" />
+        <activity android:name=".admin.AcceptRejectCaptainsActivity" />
+        <activity android:name=".admin.AcceptRejectExpertsActivity" />
+        <activity android:name=".admin.ManageUsersActivity" />
+        <activity android:name=".seller.AddImageActivity" />
+        <activity android:name=".seller.SellerActivity" />
+        <activity android:name=".seller.AddProductImageActivity" />
+        <activity android:name=".seller.EditProfileSellerActivity" />
+        <activity android:name=".seller.RequestBiddingActivity" />
+        <activity android:name=".seller.UpdateProductActivity" />
+        <activity android:name=".seller.ManageProductActivity" />
+        <activity android:name=".seller.AddProductActivity" />
+        <activity android:name=".admin.EditProfileAdminActivity" />
+        <activity android:name=".buyer.EditProfileBuyerActivity" />
+        <activity android:name=".ResetPasswordActivity" />
+        <activity android:name=".captain.CaptainActivity" />
+        <activity android:name=".expert.ExpertActivity" />
+        <activity android:name=".admin.AdminActivity" />
+        <activity android:name=".buyer.BuyerActivity" />
+        <activity android:name=".ForgetActivity" />
+        <activity android:name=".CreateAccountActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

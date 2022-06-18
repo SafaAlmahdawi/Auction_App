@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@drawable/back4"
+    tools:context=".buyer.ProductOperationsActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:src="@drawable/logo4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentLeft="true"/>
+    <ImageView
+        android:id="@+id/imgArrow"
+        android:src="@drawable/arrow2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="20dp"
+        android:padding="10dp"
+        android:alpha="10"
+        android:layout_marginTop="60dp"
+        android:scrollbars="vertical"
+        android:background="@drawable/background">
+
+
+        <TextView android:id="@+id/txtLoginTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Operations - Buyer"
+            android:textColor="#086791"
+            android:textStyle="bold"
+            android:textSize= "30sp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/sinethar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:orientation="horizontal"
+            android:background="#4AE91E63"/>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:scrollbars="vertical"
+
+            android:layout_gravity="center"
+            android:choiceMode="singleChoice"
+            android:divider="#086791"
+            android:dividerHeight="2dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginVertical="20dp"
+            android:background="@drawable/round_text"
+            android:listSelector="#4AE91E63" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="5dp"
+                android:src="@drawable/favorite2"
+                android:layout_marginVertical="10dp"
+                android:id="@+id/butFavorite"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:src="@drawable/share"
+                android:id="@+id/butShare"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="5dp" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="5dp"
+                android:src="@drawable/bid3"
+                android:layout_marginVertical="10dp"
+                android:id="@+id/butBidding"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="5dp"
+                android:src="@drawable/buy2"
+                android:layout_marginVertical="10dp"
+                android:id="@+id/butBuy"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:id="@+id/butRate"
+                android:src="@drawable/rate"
+                android:layout_marginVertical="10dp"
+                android:layout_marginHorizontal="5dp" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginHorizontal="5dp"
+                android:src="@drawable/comment"
+                android:layout_marginVertical="10dp"
+                android:id="@+id/butComment"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@drawable/back4"
+    tools:context=".buyer.SearchProductActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:src="@drawable/logo4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentLeft="true"/>
+    <ImageView
+        android:id="@+id/imgArrow"
+        android:src="@drawable/arrow2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginHorizontal="20dp"
+        android:padding="10dp"
+        android:alpha="10"
+        android:layout_marginTop="60dp"
+        android:scrollbars="vertical"
+        android:background="@drawable/background">
+
+
+        <TextView android:id="@+id/txtLoginTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search Products - Buyer"
+            android:textColor="#086791"
+            android:textStyle="bold"
+            android:textSize= "30sp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/sinethar" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:orientation="horizontal"
+            android:background="#4AE91E63"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtSearch"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="2"
+                android:background="@drawable/round_text"
+                android:drawableRight="@drawable/search3"
+                android:hint="Search ...."
+                android:padding="8dp"
+                android:textColor="#03A9F4" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/butView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/round_button"
+                android:padding="8dp"
+                android:text="Search"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:scrollbars="vertical"
+
+            android:layout_gravity="center"
+            android:choiceMode="singleChoice"
+            android:divider="#086791"
+            android:dividerHeight="2dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/round_text"
+            android:listSelector="#4AE91E63" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Auction</string>
+    <array name="payment">
+        <item>Cash</item>
+        <item>Credit Card</item>
+        <item>Bank Transfer</item>
+        <item>Other</item>
+    </array>
+    <array name="categories">
+        <item>Choose Product Category</item>
+        <item>Electrical Devices</item>
+        <item>Laptops</item>
+        <item>Mobiles</item>
+        <item>Antiques</item>
+        <item>Jewelry</item>
+    </array>
+    <array name="state">
+        <item>Choose Product Status</item>
+        <item>New</item>
+        <item>Used - Excellent</item>
+        <item>Used - Good</item>
+        <item>Used - Poor</item>
+    </array>
+
+    <array name="types">
+        <item>Buyer</item>
+        <item>Seller</item>
+        <item>Expert</item>
+        <item>Delivery Captain</item>
+    </array>
+    <array name="payments">
+        <item>Cash</item>
+        <item>Credit Card</item>
+    </array>
+    <array name="card_types">
+        <item>Master Card</item>
+        <item>Visa</item>
+        <item>Discover Card</item>
+        <item>American Express</item>
+    </array>
+    <array name="order_type">
+        <item>Purchase Order</item>
+        <item>Bidding Order</item>
+    </array>
+</resources>

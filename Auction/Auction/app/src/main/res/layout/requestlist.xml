@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/req_id"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:visibility="gone"  />
+    <TextView
+        android:id="@+id/prod_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:textStyle="bold"
+            android:text="Date: "
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/req_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#086791"
+            android:textStyle="bold"
+            android:textSize="13sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:textStyle="bold"
+            android:text="Status: "
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/prod_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#086791"
+            android:textStyle="bold"
+            android:textSize="13sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:textStyle="bold"
+            android:text="Price: "
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/prod_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#086791"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="13sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:textStyle="bold"
+            android:text="Bidding Start: "
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/req_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#086791"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#666666"
+            android:textStyle="bold"
+            android:text="Bidding End: "
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:textSize="13sp" />
+        <TextView
+            android:id="@+id/req_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#086791"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+   </LinearLayout>

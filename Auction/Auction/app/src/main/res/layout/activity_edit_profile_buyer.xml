@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="ltr"
+    android:background="@drawable/back4"
+    tools:context=".buyer.EditProfileBuyerActivity">
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:src="@drawable/logo4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentLeft="true"/>
+    <ImageView
+        android:id="@+id/imgArrow"
+        android:src="@drawable/arrow2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp"
+        android:layout_alignParentRight="true"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:padding="10dp"
+        android:alpha="10"
+        android:layout_marginTop="60dp"
+        android:scrollbars="vertical"
+        android:background="@drawable/background">
+
+
+        <TextView android:id="@+id/txtLoginTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit Profile - Buyer"
+            android:textColor="#086791"
+            android:textStyle="bold"
+            android:textSize= "30sp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/sinethar" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:orientation="horizontal"
+            android:background="#4AE91E63"/>
+
+        <EditText
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_text"
+            android:hint="Full Name"
+            android:textColor="#03A9F4"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/editp"
+            android:padding="8dp"/>
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_text"
+            android:hint="Type your Email"
+            android:textColor="#03A9F4"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/email"
+            android:padding="8dp"/>
+        <EditText
+            android:id="@+id/txtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="phone"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_text"
+            android:hint="Type your Phone"
+            android:textColor="#03A9F4"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/phone"
+            android:padding="8dp"/>
+        <EditText
+            android:id="@+id/txtAddress"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_text"
+            android:hint="Type your Address"
+            android:textColor="#03A9F4"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/address"
+            android:padding="8dp"/>
+        <EditText
+            android:id="@+id/txtUser"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_text"
+            android:hint="User Name"
+            android:textColor="#03A9F4"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/usern"
+            android:padding="8dp"/>
+        <EditText
+            android:id="@+id/txtPass"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_text"
+            android:hint="Password"
+            android:textColor="#03A9F4"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/pass"
+            android:padding="8dp"/>
+        <TextView android:id="@+id/txtType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Type"
+            android:textColor="#086791"
+            android:textStyle="bold"
+            android:textSize= "15sp"
+            android:layout_marginTop="10dp" />
+        <Spinner
+            android:id="@+id/txtSpin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/round_text"
+            android:entries="@array/payment"
+            android:textColor="#086791"
+            android:padding="8dp"/>
+        <EditText
+            android:id="@+id/txtPayment"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/round_text"
+            android:hint="Payment Details"
+            android:textColor="#03A9F4"
+            android:textSize="15sp"
+            android:drawableLeft="@drawable/payment"
+            android:padding="8dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/butSave"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_button"
+            android:padding="8dp"
+            android:text="Save"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/summer_calling"/>
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
